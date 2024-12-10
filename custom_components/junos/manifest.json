@@ -1,0 +1,12 @@
+{
+  "domain": "junos",
+  "name": "Junos OS",
+  "documentation": "https://github.com/apetrycki/junos",
+  "issue_tracker": "https://github.com/apetrycki/junos/issues",
+  "iot_class": "local_polling",
+  "config_flow": true,
+  "requirements": [],
+  "dependencies": ["configurator"],
+  "codeowners": ["@apetrycki"],
+  "version": "0.1"
+}

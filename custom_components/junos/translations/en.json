@@ -1,0 +1,25 @@
+{
+    "config": {
+        "title": "Juniper Junos",
+        "step": {
+            "user": {
+                "title": "Juniper Junos",
+                "description": "If you need help with the configuration have a look here: https://github.com/apetrycki/junos",
+                "data": {
+                    "username": "Username",
+                    "password": "Password",
+					"url": "https://IP:Port",
+					"verify": "Verify TLS"
+                }
+            }
+        },
+        "error": {
+            "failure": "An error ocurred, please check the logs",
+            "auth": "Username/Password is incorrect.",
+            "name_exists": "Configuration already exists.",
+            "invalid_password": "Invalid Password"
+        },
+        "abort": {
+        }
+    }
+}

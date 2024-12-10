@@ -1,0 +1,6 @@
+{
+  "name": "Junos OS",
+  "domains": ["junos"],
+  "iot_class": ["Local Polling"],
+  "render_readme": true
+}
